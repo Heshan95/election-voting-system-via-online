@@ -1,0 +1,194 @@
+.new_body{
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+    background: #333;
+}
+
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+}
+
+.skills li{
+    margin: 20px 0;
+}
+
+.bar{
+    background: #353B48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow:  0 0 10px #2187e7b3;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+
+.slpp{
+    width: 90%;
+    animation: slpp 2s;
+}
+
+.slfp{
+    width: 65%;
+     animation: slfp 2s;
+}
+.unp{
+    width: 45%;
+     animation: unp 2s;
+}
+.jjb{
+    width: 3%;
+     animation: jjb1 2s;
+}
+
+@keyframes slpp{
+    0%{
+        width: 0%
+    }
+    0%{
+        width: 90%
+    }
+}
+
+@keyframes slfp{
+    0%{
+        width: 0%
+    }
+    0%{
+        width: 65%
+    }
+}
+
+@keyframes unp{
+    0%{
+        width: 0%
+    }
+    0%{
+        width: 45%
+    }
+}
+
+@keyframes jjb1{
+    0%{
+        width: 0%
+    }
+    0%{
+        width: 3%
+    }
+}
+
+
+
+.container{
+    width: 100%;
+    padding-left: 2vh;
+    height: 9vh;
+    display: flex;
+    margin-top: 5vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-div {
+    width: 90%;
+    height: 11px;
+    align: center;
+    background-color: #eeeeee;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+
+.status-bar-text {
+    width: 100%;
+    height: 48px;
+    position: absolute;
+}
+
+.h3head{
+    font-size: 3vh;
+}
+
+.val {
+    text-align: right;
+    margin: 0px;
+    padding-right: 12px;
+    margin-top: -3vh;
+    font-size: 2.2vh;
+}
+
+.val2 {
+    text-align: right;
+    margin: 0px;
+    padding-right: 12px;
+    margin-top: -3vh;
+    font-size: 2.2vh;
+}
+
+.val3 {
+    text-align: left;
+    margin: 0px;
+    padding-right: 12px;
+    margin-top: -2.5vh;
+    font-weight: bold;
+    font-size: 1.6vh;
+    color: #666666;
+}
+
+.seats {
+    text-align: right;
+    margin: 0px;
+    color: #666666;
+    padding-right: 12px;
+    margin-top: -6.5vh;
+    font-size:1.8vh;
+}
+
+.form{
+     width: 100%;
+    height:20%;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container2{
+    width: 100%;
+    padding-left: 2vh;
+    height: 9vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.comboDistrict{
+    width: 50%;
+    transition: 0.2s;
+    height: 5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 1.8vh;
+    outline: none;
+    padding-left: 10px;
+}

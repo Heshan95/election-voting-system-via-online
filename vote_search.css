@@ -1,0 +1,44 @@
+.center1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_text h1{
+    margin-left: 10%;
+    margin-top: 0;
+    color: #000;
+}
+
+label{
+    position: relative;
+}
+
+input{
+    border: #7b7c7c solid 1px;
+    border-radius: 10px;
+    height: 5vh;
+    padding: 0 2%;
+    color: #000;
+}
+
+.button1{
+    position: absolute;
+    top: -7px;
+    bottom: 0;
+    right: 0;
+    height: 5vh;
+    border-radius: 10px;
+    background: #2ccd78;
+    color: white;
+    padding: 0 5%;
+    letter-spacing: 1.2px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
